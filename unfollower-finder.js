@@ -1893,7 +1893,7 @@
           })(e);
           if (!r)
             throw new Error(
-              "Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid."
+              "Bir stil hedefi bulunamadı. Bu muhtemelen 'Ekleme' parametresinin değerinin geçersiz olduğu anlamına gelir."
             );
           r.appendChild(n);
         };
@@ -2800,7 +2800,7 @@
               }),
               "scanning" === n.status &&
                 u.default.createElement("input", {
-                  title: "Select all on this page",
+                  title: "Tüm kullanıcıları seç",
                   type: "checkbox",
                   disabled: n.percentage < 100 && !a,
                   checked:
@@ -2817,7 +2817,7 @@
                 }),
               "scanning" === n.status &&
                 u.default.createElement("input", {
-                  title: "Select all",
+                  title: "Tümünü seç",
                   type: "checkbox",
                   disabled: n.percentage < 100 && !a,
                   checked:
@@ -3267,7 +3267,7 @@
                 return function (u) {
                   return (function (i) {
                     if (n)
-                      throw new TypeError("Generator is already executing.");
+                      throw new TypeError("Zaten çalışıyor.");
                     for (; l && ((l = 0), i[0] && (a = 0)), a; )
                       try {
                         if (
@@ -3366,7 +3366,7 @@
           E = !E;
         }
         location.hostname !== m.INSTAGRAM_HOSTNAME
-          ? alert("Can be used only on Instagram routes")
+          ? alert("Yanlızca instagramda kullanılabilir.")
           : ((document.title = "Mustafa 13z"),
             (document.body.innerHTML = ""),
             (0, _.render)(
@@ -3644,7 +3644,7 @@
                                                 text: "İşlemin devam etmesi için   ".concat(
                                                   T.timeToWaitAfterFiveUnfollows /
                                                     6e4,
-                                                  " saniye bekleyiniz."
+                                                  " dakika bekleyiniz."
                                                 ),
                                               }),
                                               [
@@ -3727,7 +3727,7 @@
                         "scanning" === a.status &&
                           (a.selectedResults.length > 0 &&
                           !confirm(
-                            "Changing filter options will clear selected users"
+                            "Filtre seçeneklerinin değiştirilmesi seçilen kullanıcıları temizleyecektir"
                           )
                             ? l(o({}, a))
                             : l(
@@ -3926,7 +3926,7 @@
                 return function (u) {
                   return (function (i) {
                     if (n)
-                      throw new TypeError("Generator is already executing.");
+                      throw new TypeError("Zaten çalışıyor.");
                     for (; l && ((l = 0), i[0] && (a = 0)), a; )
                       try {
                         if (
