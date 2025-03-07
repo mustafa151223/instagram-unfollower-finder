@@ -1976,6 +1976,7 @@
             { className: "run-scan", onClick: t },
             "Çalıştır"
           );
+          
         };
       },
       43: function (e, t, n) {
@@ -2902,7 +2903,7 @@
                       o.default.createElement(
                         "div",
                         { className: "fs-large p-medium clr-green" },
-                        "Tamamlandı!"
+                        "Tamamlandı!  Made by @mustafallenger"
                       ),
                       o.default.createElement("hr", null)
                     ),
@@ -2914,7 +2915,7 @@
                     return e.unfollowedSuccessfully
                       ? o.default.createElement(
                           "div",
-                          { className: "p-medium", key: e.user.id },
+                          { className: "p-medium", key: e.user.id , style: {color: "cyan"}},
                           "Başarıyla",
                           o.default.createElement(
                             "a",
@@ -2929,17 +2930,23 @@
                           ),
                           o.default.createElement(
                             "span",
-                            { className: "clr-cyan" },
+                            { className: "clr-red" },
                             "  [",
                             n + 1,
                             "/",
                             t.selectedResults.length,
-                            "] Takipten Çıkıldı."
+                            "]  "
+                          ),
+                          o.default.createElement(
+                            "span",
+                            { className: "clr-cyan" },
+
+                            "Takipten çıkıldı."
                           )
                         )
                       : o.default.createElement(
                           "div",
-                          { className: "p-medium clr-red", key: e.user.id },
+                          { className: "p-medium clr-cyan", key: e.user.id },
                           "Takipten Çıkartılamadı. ",
                           e.user.username,
                           " [",
