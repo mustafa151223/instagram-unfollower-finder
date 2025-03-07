@@ -2111,7 +2111,7 @@
                 l.default.createElement(
                   "button",
                   { className: "button-control button-pause", onClick: c },
-                  a ? "Resume" : "Durdur"
+                  a ? "Devam et" : "Durdur"
                 )
               ),
               l.default.createElement(
@@ -2866,7 +2866,7 @@
                   o.default.createElement(
                     "menu",
                     { className: "flex column grow m-clear p-clear" },
-                    o.default.createElement("p", null, "Filter"),
+                    o.default.createElement("p", null, "Filtrele"),
                     o.default.createElement(
                       "label",
                       { className: "badge m-small" },
@@ -2902,7 +2902,7 @@
                       o.default.createElement(
                         "div",
                         { className: "fs-large p-medium clr-green" },
-                        "All DONE!"
+                        "Tamamlandı!"
                       ),
                       o.default.createElement("hr", null)
                     ),
@@ -2915,7 +2915,7 @@
                       ? o.default.createElement(
                           "div",
                           { className: "p-medium", key: e.user.id },
-                          "Başarıyla Takipten Çıkıldı",
+                          "Başarıyla",
                           o.default.createElement(
                             "a",
                             {
@@ -2934,13 +2934,13 @@
                             n + 1,
                             "/",
                             t.selectedResults.length,
-                            "]"
+                            "] Takipten Çıkıldı."
                           )
                         )
                       : o.default.createElement(
                           "div",
                           { className: "p-medium clr-red", key: e.user.id },
-                          "Failed to unfollow ",
+                          "Takipten Çıkartılamadı. ",
                           e.user.username,
                           " [",
                           n + 1,
@@ -3500,9 +3500,9 @@
                                   ? ((t = 0),
                                     S({
                                       show: !0,
-                                      text: "Sleeping ".concat(
+                                      text: "İşlemin tamamlanması için  ".concat(
                                         T.timeToWaitAfterFiveSearchCycles / 1e3,
-                                        " seconds to prevent getting temp blocked"
+                                        " saniye bekleyiniz."
                                       ),
                                     }),
                                     [
@@ -3641,10 +3641,10 @@
                                             ? [3, 7]
                                             : (S({
                                                 show: !0,
-                                                text: "Sleeping ".concat(
+                                                text: "İşlemin devam etmesi için   ".concat(
                                                   T.timeToWaitAfterFiveUnfollows /
                                                     6e4,
-                                                  " minutes to prevent getting temp blocked"
+                                                  " saniye bekleyiniz."
                                                 ),
                                               }),
                                               [
@@ -4025,7 +4025,7 @@
                       [4, navigator.clipboard.writeText(n)]
                     );
                   case 1:
-                    return r.sent(), alert("List copied to clipboard!"), [2];
+                    return r.sent(), alert("Liste panoya kopyalandı!"), [2];
                 }
               });
             });
